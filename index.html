@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2048小游戏</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="zuozhe">
+            <span>2048小游戏</span>
+            <h2>Created by 魏峰</h2>
+        </div>
+        <div class="anniu">
+            <a href="javascript:newgame()" id="newgame">New Game</a>
+        </div>
+        <div class="score">
+            <span>score:</span>
+            <span id="fengshu">0</span>
+        </div>
+    </div>
+    <div class="over">
+        <img class="img1" src="/images/gameover.jpg" alt="Game Over">
+        <img class="img2" src="/images/gameover.jpg" alt="Game Over">
+    </div>
+    
+    <div id="backgroundcell">
+        <div class="gridcell" id="gridcell-0-0"></div>
+        <div class="gridcell" id="gridcell-0-1"></div>
+        <div class="gridcell" id="gridcell-0-2"></div>
+        <div class="gridcell" id="gridcell-0-3"></div>
+        
+        <div class="gridcell" id="gridcell-1-0"></div>
+        <div class="gridcell" id="gridcell-1-1"></div>
+        <div class="gridcell" id="gridcell-1-2"></div>
+        <div class="gridcell" id="gridcell-1-3"></div>
+        
+        <div class="gridcell" id="gridcell-2-0"></div>
+        <div class="gridcell" id="gridcell-2-1"></div>
+        <div class="gridcell" id="gridcell-2-2"></div>
+        <div class="gridcell" id="gridcell-2-3"></div>
+        
+        <div class="gridcell" id="gridcell-3-0"></div>
+        <div class="gridcell" id="gridcell-3-1"></div>
+        <div class="gridcell" id="gridcell-3-2"></div>
+        <div class="gridcell" id="gridcell-3-3"></div>
+    </div>
+</body>
+
+</html>
